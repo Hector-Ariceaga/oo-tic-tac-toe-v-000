@@ -102,11 +102,8 @@ def draw?
 end
 
 def over?
-  if won? || draw?
-    return true
-  else
-    false
-  end
+  won? || draw?
+  
 end
 
 def winner
