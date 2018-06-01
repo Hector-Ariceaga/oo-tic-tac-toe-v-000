@@ -66,7 +66,7 @@ turn_count.even? ? "X" : "O"
 end
 
 def won?
-  WIN_COMBINATIONS.select do |combo|
+  WIN_COMBINATIONS.select do |combination|
   win_index_1 = combination[0]
   win_index_2 = combination[1]
   win_index_3 = combination[2]
